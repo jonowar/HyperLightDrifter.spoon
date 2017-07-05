@@ -18,7 +18,7 @@ obj.license = "MIT - https://opensource.org/licenses/MIT"
 ---
 --- Parameters:
 ---  * mapping - A table containing hotkey modifier/key details for the following items:
----   * unlockPurpleOutfit - This will cause the mouse circle to be drawn
+---   * unlockPurpleOutfit - Makes the guy to dash 800 times
 function obj:bindHotkeys(mapping)
    if (self.hotkey) then
       self.hotkey:delete()

@@ -24,68 +24,21 @@
 
     ],
     "doc" : "Execute various actions in the game Hyper Light Drifter by Heart Machine",
-    "Method" : [
-      {
-        "doc" : "Binds hotkeys for HyperLightDrifter\n\nParameters:\n * mapping - A table containing hotkey modifier\/key details for the following items:\n  * unlockPurpleOutfit - This will cause the mouse circle to be drawn",
-        "stripped_doc" : [
-          "Binds hotkeys for HyperLightDrifter",
-          ""
-        ],
-        "parameters" : [
-          " * mapping - A table containing hotkey modifier\/key details for the following items:",
-          "  * unlockPurpleOutfit - This will cause the mouse circle to be drawn"
-        ],
-        "def" : "HyperLightDrifter:bindHotkeys(mapping)",
-        "notes" : [
+    "Field" : [
 
-        ],
-        "signature" : "HyperLightDrifter:bindHotkeys(mapping)",
-        "type" : "Method",
-        "returns" : [
-
-        ],
-        "name" : "bindHotkeys",
-        "desc" : "Binds hotkeys for HyperLightDrifter"
-      },
-      {
-        "doc" : "Begins dashing back and forth when using keyboard config in Hyper Light Drifter.\nIf done in the dash store challenge zone, this should unlock the Purple Outfit.\n\nParameters:\n * None\n\nReturns:\n * None",
-        "stripped_doc" : [
-          "Begins dashing back and forth when using keyboard config in Hyper Light Drifter.",
-          "If done in the dash store challenge zone, this should unlock the Purple Outfit.",
-          ""
-        ],
-        "parameters" : [
-          " * None",
-          ""
-        ],
-        "def" : "HyperLightDrifter:unlockPurpleOutfit()",
-        "notes" : [
-
-        ],
-        "signature" : "HyperLightDrifter:unlockPurpleOutfit()",
-        "type" : "Method",
-        "returns" : [
-          " * None"
-        ],
-        "name" : "unlockPurpleOutfit",
-        "desc" : "Begins dashing back and forth when using keyboard config in Hyper Light Drifter."
-      }
     ],
     "Command" : [
 
     ],
     "items" : [
       {
-        "doc" : "Binds hotkeys for HyperLightDrifter\n\nParameters:\n * mapping - A table containing hotkey modifier\/key details for the following items:\n  * unlockPurpleOutfit - This will cause the mouse circle to be drawn",
+        "doc" : "Binds hotkeys for HyperLightDrifter\n\nParameters:\n * mapping - A table containing hotkey modifier\/key details for the following items:\n  * unlockPurpleOutfit - Makes the guy to dash 800 times",
         "stripped_doc" : [
           "Binds hotkeys for HyperLightDrifter",
           ""
         ],
-        "parameters" : [
-          " * mapping - A table containing hotkey modifier\/key details for the following items:",
-          "  * unlockPurpleOutfit - This will cause the mouse circle to be drawn"
-        ],
         "def" : "HyperLightDrifter:bindHotkeys(mapping)",
+        "name" : "bindHotkeys",
         "notes" : [
 
         ],
@@ -94,8 +47,11 @@
         "returns" : [
 
         ],
-        "name" : "bindHotkeys",
-        "desc" : "Binds hotkeys for HyperLightDrifter"
+        "desc" : "Binds hotkeys for HyperLightDrifter",
+        "parameters" : [
+          " * mapping - A table containing hotkey modifier\/key details for the following items:",
+          "  * unlockPurpleOutfit - Makes the guy to dash 800 times"
+        ]
       },
       {
         "doc" : "Begins dashing back and forth when using keyboard config in Hyper Light Drifter.\nIf done in the dash store challenge zone, this should unlock the Purple Outfit.\n\nParameters:\n * None\n\nReturns:\n * None",
@@ -104,11 +60,8 @@
           "If done in the dash store challenge zone, this should unlock the Purple Outfit.",
           ""
         ],
-        "parameters" : [
-          " * None",
-          ""
-        ],
         "def" : "HyperLightDrifter:unlockPurpleOutfit()",
+        "name" : "unlockPurpleOutfit",
         "notes" : [
 
         ],
@@ -117,12 +70,59 @@
         "returns" : [
           " * None"
         ],
-        "name" : "unlockPurpleOutfit",
-        "desc" : "Begins dashing back and forth when using keyboard config in Hyper Light Drifter."
+        "desc" : "Begins dashing back and forth when using keyboard config in Hyper Light Drifter.",
+        "parameters" : [
+          " * None",
+          ""
+        ]
       }
     ],
-    "Field" : [
+    "Method" : [
+      {
+        "doc" : "Binds hotkeys for HyperLightDrifter\n\nParameters:\n * mapping - A table containing hotkey modifier\/key details for the following items:\n  * unlockPurpleOutfit - Makes the guy to dash 800 times",
+        "stripped_doc" : [
+          "Binds hotkeys for HyperLightDrifter",
+          ""
+        ],
+        "def" : "HyperLightDrifter:bindHotkeys(mapping)",
+        "name" : "bindHotkeys",
+        "notes" : [
 
+        ],
+        "signature" : "HyperLightDrifter:bindHotkeys(mapping)",
+        "type" : "Method",
+        "returns" : [
+
+        ],
+        "desc" : "Binds hotkeys for HyperLightDrifter",
+        "parameters" : [
+          " * mapping - A table containing hotkey modifier\/key details for the following items:",
+          "  * unlockPurpleOutfit - Makes the guy to dash 800 times"
+        ]
+      },
+      {
+        "doc" : "Begins dashing back and forth when using keyboard config in Hyper Light Drifter.\nIf done in the dash store challenge zone, this should unlock the Purple Outfit.\n\nParameters:\n * None\n\nReturns:\n * None",
+        "stripped_doc" : [
+          "Begins dashing back and forth when using keyboard config in Hyper Light Drifter.",
+          "If done in the dash store challenge zone, this should unlock the Purple Outfit.",
+          ""
+        ],
+        "def" : "HyperLightDrifter:unlockPurpleOutfit()",
+        "name" : "unlockPurpleOutfit",
+        "notes" : [
+
+        ],
+        "signature" : "HyperLightDrifter:unlockPurpleOutfit()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "desc" : "Begins dashing back and forth when using keyboard config in Hyper Light Drifter.",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      }
     ],
     "name" : "HyperLightDrifter"
   }
