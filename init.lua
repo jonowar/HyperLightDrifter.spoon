@@ -12,6 +12,13 @@ obj.author = "Jono Warren <jono.warren@gmail.com>"
 obj.homepage = "https://github.com/jonowar/HyperLightDrifter.spoon"
 obj.license = "MIT - https://opensource.org/licenses/MIT"
 
+--- HyperLightDrifter:bindHotkeys(mapping)
+--- Method
+--- Binds hotkeys for HyperLightDrifter
+---
+--- Parameters:
+---  * mapping - A table containing hotkey modifier/key details for the following items:
+---   * unlockPurpleOutfit - This will cause the mouse circle to be drawn
 function obj:bindHotkeys(mapping)
    if (self.hotkey) then
       self.hotkey:delete()
@@ -26,7 +33,17 @@ function obj:bindHotkeys(mapping)
    return self
 end
 
-function obj:drift()
+--- HyperLightDrifter:unlockPurpleOutfit()
+--- Method
+--- Begins dashing back and forth when using keyboard config in Hyper Light Drifter.
+--- If done in the dash store challenge zone, this should unlock the Purple Outfit.
+---
+--- Parameters:
+---  * None
+---
+--- Returns:
+---  * None
+function obj:unlockPurpleOutfit()
    hs.notify.new({title="HyperLightDrifter", informativeText="Drifting"}):send()
    for i = 1, 4 do
       hs.eventtap.keyStroke({}, "space", 150000)
