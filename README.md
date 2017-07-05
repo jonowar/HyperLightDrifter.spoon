@@ -12,12 +12,12 @@ hld:bindHotkeys({
       unlockPurpleOutfit={{"ctrl", "cmd"}, "P"}
 })
 ```
-1. Open Hyper Light Drifter and set controls to keyboard and mouse.
-1. Go to the dash shop challenge zone and move to a spot slightly left or right of a stamina recharge panel.
-1. Place your mouse in the middle of the stamina recharge panels.
-1. Hit ctrl+cmd+P
-1. The guy should start dashing back and forth 800 times and unlock the purple outfit.
+2. Open Hyper Light Drifter and set controls to keyboard and mouse.
+3. Go to the dash shop challenge zone and move to a spot slightly left or right of a stamina recharge panel.
+4. Place your mouse in the middle of the stamina recharge panels.
+5. Hit `ctrl+cmd+P`.
+6. The guy should start dashing back and forth 800 times and unlock the purple outfit.
 
 # Warnings
 1. This spoon uses `hs.timer.usleep`, which blocks lua execution and might have adverse affects on other spoons.
-1. Once it starts, it won't stop until the spacebar has been pushed 800 times, so make sure you're in the game and comitted to unlocking this thing.
+2. Once it starts, it won't stop until the spacebar has been pushed 800 times, so make sure you're in the game and comitted to unlocking this thing.
